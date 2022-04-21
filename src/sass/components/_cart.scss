@@ -58,7 +58,7 @@
     }
 
     &__item {
-        @include flex(center, flex-start);
+        @include flex(center, flex-direction);
         margin-bottom: 20px;
 
         &__image {
